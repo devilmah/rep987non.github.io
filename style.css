@@ -82,6 +82,16 @@ h2{
 	box-shadow: 0 2px 10px;
 }
 
+.list{
+	order:1;	
+}	
+
+.form{
+	order:2;
+}	
+.table-box{
+	order:3;	
+}	
 .content .inside{
 	width:350px;
 	padding: 30px;
@@ -145,4 +155,10 @@ footer{
 	margin:0 auto;
 	width:80%;
   }
+	.form{
+	order:3;
+ }	
+  .table-box{
+	order:2;	
+}
 }
