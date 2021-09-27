@@ -13,7 +13,7 @@ header{
 }
 .logo{
 	float:left;
-	margin:10px;
+	margin:10px auto;
 	width:100px;
 	height:100px;
 	border-radius:50%;
@@ -37,8 +37,12 @@ h2{
 
 .navbar{
 	padding: 0;
-	margin: 10px auto;
+	margin: 10px;
 	width: 100%;
+}
+.navbar ul{
+	width:350px;
+	margin: 0 auto;
 }
 
 .navbar a {
