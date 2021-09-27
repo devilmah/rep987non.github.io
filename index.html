@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="style.css"> 
+		<title>index</title>
+	</head>
+	<body>
+		 <header class="header">
+			<img class="logo" src="logo.png" alt="Логотип" >
+			<div class="title"><h1 style="color:#fff;">Список гиперссылок и форма</h1></div>
+		 </header>
+		 <div class="navbar">
+			 <ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Info</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">About Us</a></li>
+			 </ul>
+		</div>
+		<div class="content">
+			<div class="main">
+				<div class="list">
+					<h2> Список</h2>
+					<div class="inside">
+						<ol>
+							<li><a href="http://example.com/index.html">Example http</a> </li>
+							<li><a href="https://example.com">Example https</a> </li>
+							<li><a href="ftp://192.168.2.227/MUSIC/Queen/16%20Live%20Magic%20(1986)/09%20-%20Bohemian%20Rhapsody.mp3 ">Ссылка на файл на сервере FTP без авторизации</a></li>
+							<li><a href="ftp://login:123456@192.168.2.227/MUSIC/Queen/16%20Live%20Magic%20(1986)/09%20-%20Bohemian%20Rhapsody.mp3">Ссылка на файл на сервере FTP с авторизацией</a></li>
+							<li><a href="https://readingbooks.site/read/?name=snegovik&page=103#:~:text=%D0%A5%D0%B0%D1%80%D1%80%D0%B8%20%D0%B2%D1%81%D1%82%D0%B0%D0%BB%2C%20%D0%BF%D0%BE%D1%88%D0%B5%D0%BB,%D0%BD%D0%B5%20%D1%82%D0%B0%D0%BA%20%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE.">Ссылка на фрагмент страницы</a> </li>
+							<li><a href="file:///C:/Program%20Files%20(x86)/Notepad++/index.html#:~:text=SALE-,%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0%20%D0%B1%D0%B5%D0%B7%20href,-%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0%20%D1%81%20%D0%BF%D1%83%D1%81%D1%82%D1%8B%D0%BC">Ссылка на фрагмент текущей страницы</a></li>
+							<li><a href="http://example.com/?p=0&p2=1">Ссылка с двумя параметрамри</a> </li>
+							<li>
+								<ul>
+									<li>Навигация по сайту</li>
+									<li title="Главная страница"><a href="https://store.greenday.com/?title=главная страница">HOME</a> </li>
+									<li title="Новый альбом"><a href="https://store.greenday.com/father-of-all.html">FATHER OF ALL...</a> </li>
+									<li title="Музыка"><a href="https://store.greenday.com/music.html">MUSIC</a> </li>
+									<li title="Одежда"><a href="https://store.greenday.com/apparel.html">APPAREL</a> </li>
+									<li title="Аксессуары"><a href="https://store.greenday.com/accessories1.html">ACCESSORIES</a> </li>
+									<li title="Распродажа"><a href="https://store.greenday.com/sale-1.html">SALE</a> </li>
+								</ul></li>
+							<li><a>Ссылка без href</a> </li>
+							<li><a href=" ">Ссылка с пустым href</a> </li>
+							<li><a href="https://store.greenday.com/customer/account/?___SID=S" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a> </li>
+							<li><noindex><a href="https://store.greenday.com/customer/account/?___SID=S">Ссылка,запрещенная для индексации поисковикамиa</a> </noindex></li>
+							<li>Альбом <a href="https://open.spotify.com/album/5Dgqy4bBg09Rdw7CQM545s"> «Unknown Pleasures»</a> вышел в июне 1979 года на Factory Records.</li>
+							<li><a href="https://www.youtube.com/watch?v=mWY-IALeARY"><img src="ASo7ilLmqGc.jpg" width="250" height="250" border="0" ></a></li>
+							<li><img src="6qiTThDwYVggn6Ltb3hQAzue.jpg" alt="" usemap="#map" />
+								<img src="Без названия.png" alt="" usemap="#map" />
+								<map name="map">
+									<area shape="rect" coords="10, 16, 166, 171" href=https://youtu.be/zHdceHRWfY0 />
+									<area shape="circle" coords="264, 94, 78" href=https://youtu.be/OdojhnT54jU/>
+								</map>
+							</li>
+							<li><a href="inside.html">Относительная ссылка, на страницу в текущем каталоге</a></li>
+							<li><a href=”about”>Относительная ссылка на страницу в каталоге about</a></li>
+							<li><a href="../outside.html">Относительная ссылка, на страницу в каталоге уровнем выше текущего</a></li>
+							<li><a href="../../outside.html">Относительная ссылка, на страницу в каталоге двумя уровнями выше</a></li>
+							<li><a href="index.html">Cокращенная ссылка на главную</a></li>
+							<li><a href="inside.html">Cокращенная ссылка на внутреннюю</a></li>
+						</ol>
+					</div>
+				</div>
+				
+				<div class="table-box">
+					<h2 > Таблица </h2>
+					<table class="inside">
+					  <tr>
+						<th style="color:#000;">Колонка 1</th>
+						<th style="color:#000;">Колонка 2</th>
+						<th style="color:#000;">Колонка 3</th>
+					  </tr>
+					  <tr class="nch">
+						<td>Ячейка11</td>
+						<td>Ячейка12</td>
+						<td>Ячейка13</td>
+					  </tr>
+					  <tr class="ch">
+						<td colspan="3">Ячейка21</td>
+					  </tr>
+					  <tr class="nch">
+						<td>Ячейка31</td>
+						<td>Ячейка32</td>
+						<td>Ячейка33</td>
+					  </tr>
+					</table>
+				</div>
+				
+				<div class="form">
+					<div>
+						<h2> Форма </h2>
+						<div class="inside">
+							<form action="/" method="POST">
+							<label>
+							Имя:<br />
+							<input name="field-name" value="Введите имя" />
+						  </label><br />
+
+						  <label>
+							email:<br />
+							<input name="field-email" type="email" value="example@gmail.com" />
+						  </label><br />
+
+						  <label>
+							Дата рождения:<br />
+							<input name="field-date" type="date" ="2021-09-14"/>
+						  </label><br />
+						  
+							Пол:<br />
+						  <label><input  name="radio1" type="radio" checked="checked" value="Значение1" />
+							Мужской</label>
+						  <label><input name="radio1" type="radio"  value="Значение2" />
+							Женский</label><br />
+						  <label>
+						  Количество конечностей:<br />
+						  <label><input  name="radio2" type="radio"  value="Значение1" />
+							1</label>
+						  <label><input name="radio2" type="radio"  value="Значение2" />
+							2</label><br />
+							<label><input  name="radio2" type="radio"  value="Значение1" />
+							3</label>
+							<label><input  name="radio2" type="radio" checked="checked" value="Значение1" />
+							4</label>
+							<label><input  name="radio2" type="radio"  value="Значение1" />
+							5</label>
+							<label><input  name="radio2" type="radio"  value="Значение1" />
+							6</label>
+						   <label>
+							Сверхспособности:
+							<br />
+							<select name="field-super"
+							  multiple="multiple">
+							  <option value="Значение1">бессмертие</option>
+							  <option value="Значение2" selected="selected">прохождение сквозь стены</option>
+							  <option value="Значение3">левитация</option>
+							</select>
+						  </label><br />
+						  <label>
+							Биография:<br />
+							<textarea name="field-bio">Расскажите о себе</textarea>
+						  </label><br />
+						  
+						  <label><input type="checkbox" checked="checked"
+							name="check-1" />
+							С контрактом ознакомлен(а)</label><br />
+							<input type="submit" value="Отправить" />
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="aside">
+				<h2>Реклама</h2>
+				<div class="inside">
+					<div class="add">
+						<a href="https://www.youtube.com/watch?v=HSKgyWCfoTQ" style=>ПРОДАМ ГАРАЖ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p style="color:#fff;margin:10px 0 0 30px;">(c) Софья Тишкова 2021 </p>
+		</footer>
+	</body>
+</html>
+
+
+
+
+
