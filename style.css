@@ -54,7 +54,7 @@ h2{
 }
 
 .navbar li {
-	display: inline-block;
+	display: block;
 	border-left: 10px solid #666;
 	border-bottom: 1px solid #666;
 }
@@ -160,4 +160,10 @@ footer{
   .table-box{
 	order:2;	
 }
+	.navbar li{
+		display: inline-block;
+	}
+	.navbar a{
+	display: inline-block;
+	}
 }
