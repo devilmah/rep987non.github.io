@@ -162,6 +162,8 @@ footer{
   .table-box{
 	order:2;	
 }
+	.navbar ul{
+		display:block;}
 	.navbar li{
 		display: inline-block;
 	}
