@@ -37,13 +37,14 @@ h2{
 
 .navbar{
 	padding: 0;
+	margin: 10px;
 	width: 100%;
 }
 .navbar ul{
 	width:100%;
 	margin: 0 ;
 	display:flex;
-	justify-content:spase-between;
+	justify-content:space-between;
 }
 
 .navbar a {
