@@ -54,6 +54,7 @@ h2{
 }
 
 .navbar li {
+	width:100%;
 	display: block;
 	border-left: 10px solid #666;
 	border-bottom: 1px solid #666;
