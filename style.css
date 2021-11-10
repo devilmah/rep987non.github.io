@@ -37,7 +37,7 @@ h2{
 
 .navbar{
 	padding: 0;
-	margin: 10px;
+	margin: 10px auto;
 	width: 100%;
 }
 .navbar ul{
